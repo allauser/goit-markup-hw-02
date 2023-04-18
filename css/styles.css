@@ -33,7 +33,7 @@ body {
     color: #404bbf;
 }
 
-.pheder-nav-item:focus {
+.pheder-nav-item .link:focus {
     color: #404bbf;
 }
 
@@ -41,7 +41,7 @@ body {
     color: #404bbf;
 }
 
-.pheder-contact-item:focus {
+.pheder-contact-item .link:focus {
     color: #404bbf;
 }
 
