@@ -8,38 +8,46 @@
     --second-color: #434455;
     --logo-color: #4D5AE5;
     --bg-color: #ffffff;
-   
+
 }
 
 body {
     background: var(--bg-color);
     font-family: var(--primary-font);
     font-style: normal;
-    color: var(--first-color);
+    color: var(--second-color);
     letter-spacing: 0.02em;
-    
+
 }
 
 .link {
     color: inherit;
     text-decoration: none;
 }
+
 .list {
     list-style: none;
 }
-   
-.pheder-nav-item:hover,
+
+.pheder-nav-item:hover {
+    color: #404bbf;
+}
+
 .pheder-nav-item:focus {
     color: #404bbf;
 }
-.pheder-contact-item:hover,
+
+.pheder-contact-item:hover {
+    color: #404bbf;
+}
+
 .pheder-contact-item:focus {
     color: #404bbf;
 }
 
- /* Heder */
+/* Heder */
 
- .pheder-nav-link {
+.pheder-nav-link {
     color: var(--logo-color);
     font-family: var(--logo-font);
     font-weight: 800;
@@ -47,31 +55,34 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
- }
+}
 
- .pheder-nav-text {
+.pheder-nav-text {
     color: var(--first-color);
 
- }
+}
 
- .pheder-nav-list {
+.pheder-nav-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--first-color);
 
- }
- 
- .pheder-contact {
+}
+
+.pheder-contact {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--second-color);
- }
-  /* Hero */
+
+}
+
+/* Hero */
 .hero {
     background: #2E2F42;
 }
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -91,50 +102,54 @@ body {
     cursor: pointer;
     letter-spacing: 0.04em;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF;
 }
 
- /* desc */
+/* desc */
 
-  
-.desk-item-title {
+
+.desc-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--first-color);
 }
 
 .desc-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--second-color);
 }
 
 .image-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    color: var(--first-color);
     text-align: center;
     text-transform: capitalize;
 }
 
- /* team */
+/* team */
 .team {
     background: #F4F4FD;
 }
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    color: var(--first-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF;
 }
 
@@ -143,13 +158,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--first-color);
 }
 
 .team-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--second-color);
 }
 
 .footer-link {
@@ -165,8 +180,9 @@ body {
 .footer {
     background: var(--first-color);
 }
+
 .footer-logo-text {
-color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -192,6 +208,7 @@ color: #f4f4fd;
     background-color: #404BBF;
     color: #FFFFFF;
 }
+
 .pic-list-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
@@ -200,14 +217,14 @@ color: #f4f4fd;
 .pic-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     color: var(--first-color);
     letter-spacing: 0.02em;
 }
+
 .pic-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
 }
