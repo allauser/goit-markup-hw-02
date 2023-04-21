@@ -14,7 +14,6 @@
 body {
     background: var(--bg-color);
     font-family: var(--primary-font);
-    font-style: normal;
     color: var(--second-color);
     letter-spacing: 0.02em;
 
@@ -29,19 +28,13 @@ body {
     list-style: none;
 }
 
-.pheder-nav-item:hover {
+.pheder-link:hover,
+.pheder-link:focus {
     color: #404bbf;
 }
 
-.pheder-nav-item .link:focus {
-    color: #404bbf;
-}
-
-.pheder-contact-item:hover {
-    color: #404bbf;
-}
-
-.pheder-contact-item .link:focus {
+.pheder-contact-link:hover 
+.pheder-contact-link:focus {
     color: #404bbf;
 }
 
@@ -120,7 +113,6 @@ body {
 }
 
 .desc-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
